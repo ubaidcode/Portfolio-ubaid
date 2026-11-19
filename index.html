@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ubaid Ullah | Web Developer & AI Enthusiast</title>
+<meta name="description" content="Portfolio of Ubaid Ullah, web developer, designer and AI enthusiast from Karachi, Pakistan.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@500;700;800&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="nav" id="nav">
+  <a href="#home" class="logo">Ubaid Ullah</a>
+  <button class="burger" id="burger" aria-label="Menu" aria-expanded="false"><span></span><span></span><span></span></button>
+  <nav id="menu">
+    <a href="#home">Home</a><a href="#about">About</a><a href="#skills">Skills</a>
+    <a href="#services">Services</a><a href="#projects">Projects</a><a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<main>
+<section id="home" class="hero">
+  <div class="hero-text">
+    <p class="hello">Hello, I'm</p>
+    <h1>Ubaid Ullah</h1>
+    <p class="role">Web Developer · Designer · AI Enthusiast</p>
+    <p class="lead">I turn ideas into fast, responsive websites and AI-powered apps. Based in Karachi, Pakistan, available for freelance work.</p>
+    <div class="actions">
+      <a class="btn primary" href="#projects">View projects</a>
+      <a class="btn" href="ubaid.pdf" target="_blank" rel="noopener">View resume</a>
+      <a class="btn" href="ubaid.pdf" download="Ubaid-Ullah-CV.pdf">Download CV</a>
+      <a class="btn ghost" href="#contact">Hire me</a>
+    </div>
+  </div>
+  <div class="hero-card" aria-hidden="true">
+    <div class="code"><span class="c1">const</span> ubaid = {<br>&nbsp;&nbsp;city: <span class="c2">"Karachi"</span>,<br>&nbsp;&nbsp;stack: <span class="c2">["React","Node","Python"]</span>,<br>&nbsp;&nbsp;learning: <span class="c2">"Generative AI"</span>,<br>&nbsp;&nbsp;open: <span class="c1">true</span><br>};</div>
+  </div>
+</section>
+
+<section id="about" class="sec">
+  <h2>About me</h2>
+  <div class="about-grid">
+    <div class="text">
+      <p>I'm Ubaid Ullah, a web developer, web designer, freelancer and AI enthusiast from Karachi, Pakistan. I love technology, programming and creating digital solutions that are useful and well designed.</p>
+      <p>I build responsive, user-friendly websites, from frontend interfaces to full-stack apps. I also explore Generative AI, including AI assistants, chatbots, and image and video generators, using tools like Google Gemini and Hugging Face.</p>
+      <p>I prefer learning by building real projects. My goal is to turn creative ideas into powerful digital experiences through web development, AI and modern technology.</p>
+    </div>
+    <div class="facts">
+      <div><b>Location</b><span>Karachi, Pakistan</span></div>
+      <div><b>Focus</b><span>Full-stack web, AI apps</span></div>
+      <div><b>Also</b><span>Game dev, graphics, video editing</span></div>
+      <div><b>Freelance</b><span>Fiverr and direct clients</span></div>
+      <div><b>Vision</b><span>Skilled full-stack developer building my own digital products</span></div>
+    </div>
+  </div>
+</section>
+
+<section id="skills" class="sec alt">
+  <h2>Skills</h2>
+  <div class="skill-grid">
+    <div class="skill"><h3>Frontend</h3><p>HTML5, CSS3, JavaScript, Bootstrap, Tailwind CSS, React.js, Next.js</p></div>
+    <div class="skill"><h3>Backend</h3><p>Node.js, Express.js, Python</p></div>
+    <div class="skill"><h3>Databases</h3><p>MongoDB, SQL</p></div>
+    <div class="skill"><h3>AI</h3><p>Google Gemini, Hugging Face, chatbots, AI image and video generators</p></div>
+    <div class="skill"><h3>Games</h3><p>Browser games with HTML, CSS and JavaScript, animations, mobile-friendly apps</p></div>
+    <div class="skill"><h3>Creative</h3><p>Graphic and poster design, video editing, social media content, digital marketing</p></div>
+  </div>
+</section>
+
+<section id="services" class="sec">
+  <h2>Services</h2>
+  <div class="srv-grid">
+    <article class="srv"><h3>AI Videos</h3><p>Creative AI-generated videos made for your idea or brand.</p><strong>$10</strong><a href="https://wa.me/923345554195?text=Hi%20Ubaid%2C%20I%20need%20an%20AI%20video" target="_blank" rel="noopener">Chat on WhatsApp</a></article>
+    <article class="srv"><h3>Portfolio Website</h3><p>A clean, responsive personal portfolio website.</p><strong>$30</strong><a href="https://wa.me/923345554195?text=Hi%20Ubaid%2C%20I%20need%20a%20portfolio%20website" target="_blank" rel="noopener">Chat on WhatsApp</a></article>
+    <article class="srv"><h3>E-commerce Website</h3><p>An online store website to sell your products.</p><strong>$60</strong><a href="https://wa.me/923345554195?text=Hi%20Ubaid%2C%20I%20need%20an%20e-commerce%20website" target="_blank" rel="noopener">Chat on WhatsApp</a></article>
+    <article class="srv"><h3>Video Editing</h3><p>Professional editing for your short videos.</p><strong>$20</strong><a href="https://wa.me/923345554195?text=Hi%20Ubaid%2C%20I%20need%20video%20editing" target="_blank" rel="noopener">Chat on WhatsApp</a></article>
+    <article class="srv"><h3>Professional Long Video Editing</h3><p>Detailed editing for long videos, such as YouTube and courses.</p><strong>$35</strong><a href="https://wa.me/923345554195?text=Hi%20Ubaid%2C%20I%20need%20long%20video%20editing" target="_blank" rel="noopener">Chat on WhatsApp</a></article>
+  </div>
+</section>
+
+<section id="projects" class="sec alt">
+  <h2>Projects</h2>
+  <div class="filters" id="filters">
+    <button class="on" data-f="all">All</button><button data-f="web">Websites</button><button data-f="game">Games</button><button data-f="tool">Tools</button>
+  </div>
+  <div class="proj-grid" id="projGrid"></div>
+</section>
+
+<section id="contact" class="sec">
+  <h2>Contact</h2>
+  <p class="lead2">Have a project in mind? Message me on WhatsApp or find me on these platforms.</p>
+  <div class="links">
+    <a class="btn primary" href="https://wa.me/923345554195" target="_blank" rel="noopener">WhatsApp</a>
+    <a class="btn" href="ubaid.pdf" download="Ubaid-Ullah-CV.pdf">Download CV</a>
+    <a class="btn" href="https://github.com/ubaidcode" target="_blank" rel="noopener">GitHub</a>
+    <a class="btn" href="https://www.youtube.com/@Codingwithubaid" target="_blank" rel="noopener">YouTube</a>
+    <a class="btn" href="https://www.instagram.com/code_with_ubaid.110/" target="_blank" rel="noopener">Instagram</a>
+  </div>
+</section>
+</main>
+
+<footer>© 2025 Ubaid Ullah. All rights reserved.</footer>
+<a class="fb" id="fb" href="#" target="_blank" rel="noopener">Feedback</a>
+<script src="app.js"></script>
+</body>
+</html>
